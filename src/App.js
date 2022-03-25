@@ -8,11 +8,14 @@ function App() {
   useEffect(() => {
     fetch("data.json")
       .then((res) => res.json())
-      .then((data) => console.log(data));
+      .then((data) => setLaptops(data));
   }, []);
   return (
     <div className="App">
       <h1>Hello world</h1>
+      {laptops.map((laptop) => (
+        <img src={laptop.img} alt="" />
+      ))}
     </div>
   );
 }
