@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "price": 71734,
+    "img": "images/acer-aspire-3-a315.jpg",
+    "name": "acer-aspire-3"
+  },
+  {
+    "id": 2,
+    "price": 76788,
+    "img": "images/acer-extensa-15-ex215.jpg",
+    "name": "acer-extensa-15"
+  },
+  {
+    "id": 3,
+    "price": 84426,
+    "img": "images/asus-vivobook-15-k513.jpg",
+    "name": "asus-vivobook-15"
+  },
+  {
+    "id": 4,
+    "price": 84299,
+    "img": "images/asus-x515ma-intel.jpg",
+    "name": "asus-x515ma-intel"
+  },
+  {
+    "id": 5,
+    "price": 83424,
+    "img": "images/dell-vostro-15-3500.jpg",
+    "name": "dell-vostro-15"
+  },
+  {
+    "id": 6,
+    "price": 81283,
+    "img": "images/hp-250-g8-intel-core-i3.jpg",
+    "name": "hp-250-g8-intel"
+  },
+  {
+    "id": 7,
+    "price": 66028,
+    "img": "images/hp-pavilion-14.jpg",
+    "name": "hp-pavilion-14"
+  },
+  {
+    "id": 8,
+    "price": 81465,
+    "img": "images/lenovo-ideapad-slim.jpg",
+    "name": "lenovo-ideapad-slim"
+  },
+  {
+    "id": 9,
+    "price": 77722,
+    "img": "images/msi-modern-15.jpg",
+    "name": "msi-modern-15"
+  }
+]
