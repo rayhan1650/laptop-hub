@@ -3,11 +3,11 @@ import React from "react";
 const Article = () => {
   return (
     <div className="container text-start my-4">
-      <h1 class="text-center">Question and Answer</h1>
-      <div class="my-5">
-        <h2>Q: How does javascript work?</h2>
+      <h1 className="text-center">Question and Answer</h1>
+      <div className="my-5">
+        <h2>Q: How react works?</h2>
         <h4>Answer:</h4>
-        <p class="fs-4">
+        <p className="fs-4">
           React is a JavaScript library that creates user interfaces. We can use
           it to help build single page applications and mobile apps. React use
           "components" that are reusable UIs which allow us to split the app
@@ -24,7 +24,7 @@ const Article = () => {
       <div>
         <h2>Q: What is the difference between props and state?</h2>
         <h4>Answer:</h4>
-        <table class="table table-bordered border-dark fs-4">
+        <table className="table table-bordered border-dark fs-4">
           <thead>
             <tr>
               <th scope="col">#</th>
@@ -46,7 +46,7 @@ const Article = () => {
             <tr>
               <th scope="row">3</th>
               <td>
-                Props allow you to pass data from one component to other
+                Props allow us to pass data from one component to other
                 components as an argument.
               </td>
               <td>State holds information about the components.</td>
