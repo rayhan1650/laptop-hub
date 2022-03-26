@@ -13,8 +13,13 @@ const Shop = () => {
   }, []);
 
   return (
-    <div className="d-flex">
-      <Laptop></Laptop>
+    <div className="d-flex flex-md-row flex-column-reverse">
+      <div className="row row-cols-1 row-cols-md-3 g-4">
+        {laptops.map((laptop) => (
+          <Laptop key={laptop.id} laptop={laptop}></Laptop>
+        ))}
+      </div>
+
       <Cart></Cart>
     </div>
   );
