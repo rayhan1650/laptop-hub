@@ -16,7 +16,7 @@ const Laptop = ({ laptop, handleAddToCart }) => {
           onClick={() => handleAddToCart(laptop)}
           className="card-footer fw-bold text-white fs-5 bg-opacity-25  border-0 p-3 my-btn"
         >
-          Add to cart <FaCartPlus></FaCartPlus>
+          Add to Cart <FaCartPlus></FaCartPlus>
         </button>
       </div>
     </div>

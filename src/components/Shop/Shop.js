@@ -28,7 +28,7 @@ const Shop = () => {
 
   return (
     <div className="d-flex flex-md-row flex-column-reverse">
-      <div className="col-md-9 p-2">
+      <div className="col-md-9 p-2 ms-md-5">
         <div className="row row-cols-1 row-cols-md-3 g-4 p-md-4">
           {laptops.map((laptop) => (
             <Laptop
@@ -39,7 +39,7 @@ const Shop = () => {
           ))}
         </div>
       </div>
-      <div className="cols-md-3 ms-md-4 p-2 my-2">
+      <div className="cols-md-3 bg-info bg-opacity-25 rounded-3 my-4">
         <Cart clearCart={clearCart} cart={cart}></Cart>
       </div>
     </div>
