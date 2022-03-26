@@ -24,9 +24,11 @@ const Shop = () => {
     }
   };
 
+  const clearCart = () => setCart([]);
+
   return (
     <div className="d-flex flex-md-row flex-column-reverse">
-      <div className="col-md-9">
+      <div className="col-md-9 p-2">
         <div className="row row-cols-1 row-cols-md-3 g-4 p-md-4">
           {laptops.map((laptop) => (
             <Laptop
@@ -37,8 +39,8 @@ const Shop = () => {
           ))}
         </div>
       </div>
-      <div className="cols-md-3 ms-md-4 p-2">
-        <Cart cart={cart}></Cart>
+      <div className="cols-md-3 ms-md-4 p-2 my-2">
+        <Cart clearCart={clearCart} cart={cart}></Cart>
       </div>
     </div>
   );

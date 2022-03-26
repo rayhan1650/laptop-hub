@@ -1,13 +1,18 @@
 import React, { useState } from "react";
 
-const Cart = ({ cart }) => {
+const Cart = ({ cart, clearCart }) => {
   const [random, setRandom] = useState("");
-  function getRandomItem(arr) {
+  const getRandomItem = (arr) => {
     if (arr.length) {
       const randomIndex = Math.floor(Math.random() * arr.length);
       setRandom(arr[randomIndex].name);
     }
-  }
+  };
+
+  const removeRandom = () => {
+    setRandom("");
+    clearCart();
+  };
 
   return (
     <div className="d-flex flex-column justify-content-center">
@@ -22,7 +27,10 @@ const Cart = ({ cart }) => {
         CHOOSE ONE FOR ME
       </button>
       <h5>{random}</h5>
-      <button className="my-2 bg-danger bg-gradient shadow py-2  rounded fw-bold text-dark">
+      <button
+        onClick={removeRandom}
+        className="my-2 bg-danger bg-gradient shadow py-2  rounded fw-bold text-dark"
+      >
         CHOOSE AGAIN
       </button>
     </div>
