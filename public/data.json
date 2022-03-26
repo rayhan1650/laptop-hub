@@ -1,56 +1,56 @@
 [
   {
     "id": 1,
-    "price": 71734,
+    "price": 1250,
     "img": "images/acer-aspire-3-a315.jpg",
-    "name": "acer-aspire-3"
+    "name": "Acer-aspire-3"
   },
   {
     "id": 2,
-    "price": 76788,
+    "price": 1405,
     "img": "images/acer-extensa-15-ex215.jpg",
-    "name": "acer-extensa-15"
+    "name": "Acer-extensa-15"
   },
   {
     "id": 3,
-    "price": 84426,
+    "price": 1112,
     "img": "images/asus-vivobook-15-k513.jpg",
-    "name": "asus-vivobook-15"
+    "name": "Asus-vivobook-15"
   },
   {
     "id": 4,
-    "price": 84299,
+    "price": 1000,
     "img": "images/asus-x515ma-intel.jpg",
-    "name": "asus-x515ma-intel"
+    "name": "Asus-x515ma-intel"
   },
   {
     "id": 5,
-    "price": 83424,
+    "price": 834,
     "img": "images/dell-vostro-15-3500.jpg",
-    "name": "dell-vostro-15"
+    "name": "Dell-vostro-15"
   },
   {
     "id": 6,
-    "price": 81283,
+    "price": 1365,
     "img": "images/hp-250-g8-intel-core-i3.jpg",
-    "name": "hp-250-g8-intel"
+    "name": "Hp-250-g8-intel"
   },
   {
     "id": 7,
-    "price": 66028,
+    "price": 1050,
     "img": "images/hp-pavilion-14.jpg",
-    "name": "hp-pavilion-14"
+    "name": "Hp-pavilion-14"
   },
   {
     "id": 8,
-    "price": 81465,
+    "price": 1299,
     "img": "images/lenovo-ideapad-slim.jpg",
-    "name": "lenovo-ideapad-slim"
+    "name": "Lenovo-ideapad-slim"
   },
   {
     "id": 9,
-    "price": 77722,
+    "price": 1499,
     "img": "images/msi-modern-15.jpg",
-    "name": "msi-modern-15"
+    "name": "Msi-modern-15"
   }
 ]
