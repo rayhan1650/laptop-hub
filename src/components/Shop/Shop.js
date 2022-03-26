@@ -15,6 +15,11 @@ const Shop = () => {
 
   const handleAddToCart = (laptop) => {
     if (cart.length < 4) {
+      for (const data of cart) {
+        if (data.id === laptop.id) {
+          return;
+        }
+      }
       setCart([...cart, laptop]);
     }
   };
