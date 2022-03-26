@@ -1,7 +1,7 @@
 import React from "react";
 import { FaCartPlus } from "react-icons/fa";
 
-const Laptop = ({ laptop }) => {
+const Laptop = ({ laptop, handleAddToCart }) => {
   const { img, name, price } = laptop;
   return (
     <div className="col">
@@ -11,7 +11,10 @@ const Laptop = ({ laptop }) => {
           <h2 className="card-title">{name}</h2>
           <h6>Price: ${price}</h6>
         </div>
-        <button className="card-footer fw-bold bg-dark bg-opacity-25 border-0 p-3">
+        <button
+          onClick={() => handleAddToCart(laptop)}
+          className="card-footer fw-bold bg-dark bg-opacity-25 border-0 p-3"
+        >
           Add to cart <FaCartPlus></FaCartPlus>
         </button>
       </div>

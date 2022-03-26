@@ -1,10 +1,12 @@
 import React from "react";
 
-const Cart = () => {
+const Cart = ({ cart }) => {
   return (
     <div className="d-flex flex-column justify-content-center">
       <h2>Selected Laptops</h2>
-      <h5>Select</h5>
+      {cart.map((x) => (
+        <h5 key={x.id}>{x.name}</h5>
+      ))}
       <button className="my-2 bg-success bg-gradient shadow py-2  rounded fw-bold text-dark">
         CHOOSE ONE FOR ME
       </button>
