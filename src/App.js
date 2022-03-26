@@ -8,9 +8,6 @@ function App() {
     <div className="App">
       <Header></Header>
       <Shop></Shop>
-      {/* {laptops.map((laptop) => (
-        <img src={laptop.img} alt="" />
-      ))} */}
     </div>
   );
 }
